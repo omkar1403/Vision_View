@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: Inter, sans-serif; */
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(1, 13, 13);
+  color: whitesmoke;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.xyz {
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  background-color: #7b84bc;
+  width: 100vw;
+  height: min(150px, 25vw);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* padding: 30px 25px; */
+  box-shadow: rgb(135, 103, 103) 10px 8px 2px;
+}
+
+.form-car {
+  margin-top: 20em;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xyz>h2 {
+  width: 100%;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 4em;
+  text-align: center;
+  /* align-items: center; */
+
+}
+
+.xyz>img {
+  margin-right: 7px;
+  height: 60px;
+
+}
+
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(https://th.bing.com/th/id/R.5b2932dc83f23c7b756def757449d4eb?rik=%2fI1DPFeasrU9xw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fe%2f7%2fb%2f465213.jpg&ehk=oqHf8Pl1zWuGSh1VQCifWlahXcuaCXx2%2fXdJs7J7eRg%3d&risl=&pid=ImgRaw&r=0);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post {
+  background: #387a24;
+  color: white;
+}
+
+button {
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+button:hover {
+  color: white;
+  background: red;
+}
+
+.post button:hover {
+  background-color: red;
+  color: white;
+}
+
+
+input {
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+  align-items: center;
+  font-size: 20px;
+  /* margin-left: 400px; */
+}
+
+
+
+
+.mtitle {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.mfacts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.mfacts>li::marker {
+  font-size: 1.6rem;
+  color: #61DAFB;
+}
+
+.mfacts>li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.anchor-nav {
+  text-decoration: none;
+  display: flex;
+  margin-right: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  width: 100vw;
+  height: min(200px, 15vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 2;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
